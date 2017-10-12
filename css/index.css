@@ -47,9 +47,9 @@ time, mark, audio, video {
 }
 
 #navbar{
-	position: absolute;
 	padding-top: 150px;
 	height: 100%;
+	width: 150px;
 	left: -150px;
 	background-color: rgba(0,0,0,0.3)
 }
@@ -69,6 +69,11 @@ time, mark, audio, video {
 	border-bottom: 1px solid #eee
 }
 
+.maincontent{
+	background-color: #eee;
+	min-height: 500px;
+	padding: 40px 100px;
+}
 
 
 
