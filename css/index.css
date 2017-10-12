@@ -18,6 +18,12 @@ time, mark, audio, video {
 	border: 0;
 	margin: 0;
 	padding: 0;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+.noscroll{
+	overflow-y: hidden;
 }
 
 #background{
@@ -27,7 +33,54 @@ time, mark, audio, video {
 	z-index: -10;
 }
 
-#title{
+#titlecont{
+	position: absolute;
+	left: 0;
+	right: 0;
 	text-align: center;
 	margin-top: 200px;
 }
+
+#title, #subtitle{
+	opacity: 0;
+	margin-top: 30px;
+}
+
+#navbar{
+	position: absolute;
+	padding-top: 150px;
+	height: 100%;
+	left: -150px;
+	background-color: rgba(0,0,0,0.3)
+}
+
+.navitem{
+	padding: 6px 0;
+	margin: 16px 30px;
+	color: #eee;
+	text-align: center;
+}
+
+.mainitem{
+	font-weight: 700;
+}
+
+.currentpage{
+	border-bottom: 1px solid #eee
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
