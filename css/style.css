@@ -1,1 +1,5 @@
 /* YOUR CUSTOM STYLES */
+
+.translucent{
+	background-color: rgba(64,81,180, 0.8);
+}
