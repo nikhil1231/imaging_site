@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/compiled.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -24,6 +25,7 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark translucent fixed-top scrolling-navbar">
         <div class="container">
+
             <a class="navbar-brand" href="#"><img class='logo' src='img/ucl-logo-white.png'></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -77,9 +79,41 @@
 
 	<main>
         <div class="container">
-            <div class="row py-5 mt-4">
-                <div class="col-md-12 text-center">
-                    <p>Content Here - Add headings from content plan.</p>
+            <section class="section pb-5 card-section">
+                <h2 class="section-heading h1 pt-4">Our amazing team</h2>
+                <!-- <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p> -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-r team-card">
+                        <div class="card-wrapper">
+                            <div id="card-1" class="card-rotating effect__click">
+                                <div class="face front">
+                                    <div class="card-up red-yellow">
+                                    </div>
+                                    <div class="avatar">
+                                        <img src="img/people/alex.jpg" class="rounded-circle img-responsive" alt="First sample avatar image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="mt-1">Professor Danny Alexander</h4>
+                                        <p class="font-bold card-title">Professor in Imaging Science</p>
+                                        <hr>
+                                        <h5 class="mt-2 mb-2">Interests</h5>
+                                        <p class='card-interests'>Colour imaging, segmentation and tracking, medical imaging, MRI, tensor image processing, audio processing.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <div class='row'>
+                <div class='col-md-3'>
+                    <div class='card z-depth-2'>
+                        <img src='http://vis.cs.ucl.ac.uk/fileadmin/_processed_/9/a/csm_alexander_5d2d2da664.jpg'>
+                        lorem ipsum
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,6 +127,7 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/teamGen.js"></script>
     <script>
         new WOW().init();
     </script>

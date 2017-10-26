@@ -19,3 +19,41 @@
 .whitetext{
 	color: #eee;
 }
+
+.card-up{
+	height: 35% !important;
+}
+
+.red-yellow{
+	background: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(255,0,0,1), rgba(255,255,0,1));
+}
+
+.blue-cyan{
+	background: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(0,0,255,1), rgba(0,255,255,1));
+}
+
+.green-yellow{
+	background: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(0,255,0,1), rgba(255,255,0,1));
+}
+
+.red-yellow{
+	background: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(0,0,0,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(255,0,0,1), rgba(255,255,0,1));
+}
+
+/*.avatar{
+	background: url(http://vis.cs.ucl.ac.uk/fileadmin/_processed_/9/a/csm_alexander_5d2d2da664.jpg) 50% 50% no-repeat;
+	width: 120px;
+	margin-top: 20px !important;
+}*/
