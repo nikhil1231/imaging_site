@@ -1,33 +1,8 @@
-/* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  box-sizing: border-box;
+.cd-horizontal-timeline{
+  font-size: 65%;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Fira Sans", sans-serif;
-  color: #383838;
-  background-color: #f8f8f8;
-}
-
-a {
-  color: #7b9d6f;
-  text-decoration: none;
-}
-
-/* -------------------------------- 
-
-Main Components 
-
--------------------------------- */
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;

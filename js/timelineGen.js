@@ -66,7 +66,7 @@ $(document).ready(function(){
 		var tmpDate = dateTemplate.clone();
 		tmpDate.attr('data-date',date[0])
 		tmpDate.children('h2').html(date[1]);
-		tmpDate.children("em").html(printDate + ", " + dateParts[2]);
+		tmpDate.children("em").html(dateParts[2]);
 		tmpDate.children("p").html(date[3]);
 
 
