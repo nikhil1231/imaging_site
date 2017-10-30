@@ -1,6 +1,6 @@
 
-.cd-horizontal-timeline{
-  font-size: 65%;
+.cd-horizontal-timeline .events-content h2{
+  font-size: 4rem !important;
 }
 
 .cd-horizontal-timeline {
@@ -92,7 +92,6 @@
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: 1.3rem;
   padding-bottom: 15px;
   color: #383838;
   /* fix bug on Safari - text flickering while timeline translates */
@@ -298,10 +297,10 @@
     font-size: 7rem;
   }
   .cd-horizontal-timeline .events-content em {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .cd-horizontal-timeline .events-content p {
-    font-size: 1.8rem;
+    /*font-size: 1.8rem;*/
   }
 }
 
