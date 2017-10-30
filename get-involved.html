@@ -14,6 +14,7 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <link href='css/map.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark translucent fixed-top scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/index.html">
                     <img class='logo' src='img/ucl-logo-white.png'>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
@@ -86,26 +87,22 @@
         <div class="container">
             <div class="row py-5 mt-4">
                 <div class="col-md-12 text-center">
-                    <p>Question and submit form – look how to send this to an email</p>
-                    <p>- Extra resources – publications, extra links, games?</p>
-                    <p>- Calendar of upcoming events – lectures, talks, etc</p>
+                    <h1 class="font-bold light-blue-text my-5">Contact Us</h1>
+                    <p>Text here</p>
                 </div>
             </div>
             <!-- Form contact -->
             <form>
-
-                <p class="h5 text-center mb-4">Write to us</p>
-
                 <div class="md-form">
                     <i class="fa fa-user prefix grey-text"></i>
                     <input type="text" id="form3" class="form-control">
-                    <label for="form3">Your name</label>
+                    <label for="form3">Your Name</label>
                 </div>
 
                 <div class="md-form">
                     <i class="fa fa-envelope prefix grey-text"></i>
                     <input type="text" id="form2" class="form-control">
-                    <label for="form2">Your email</label>
+                    <label for="form2">Your Email</label>
                 </div>
 
                 <div class="md-form">
@@ -117,7 +114,7 @@
                 <div class="md-form">
                     <i class="fa fa-pencil prefix grey-text"></i>
                     <textarea type="text" id="form8" class="md-textarea" style="height: 100px"></textarea>
-                    <label for="form8">Your message</label>
+                    <label for="form8">Your Message</label>
                 </div>
 
                 <div class="text-center">
@@ -128,6 +125,21 @@
 
             </form>
             <!-- Form contact -->
+        </div>
+        <div id="map"></div>
+        <div class="container">
+            <div class="row py-5 mt-4">
+                <div class="col-md-12 text-center">
+                    <h1 class="font-bold light-blue-text my-5">Upcoming Events</h1>
+                    <p>Calendar</p>
+                </div>
+            </div>
+            <div class="row py-5 mt-4">
+                <div class="col-md-12 text-center">
+                    <h1 class="font-bold light-blue-text my-5">Social Media</h1>
+                    <p>Links and interactive stuff here</p>
+                </div>
+            </div>
         </div>
     </main>
     <!-- /Start your project here-->
@@ -194,6 +206,8 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMSrRNL62i-xVULG3hCYCItAzZRJFlXXM"></script>
+    <script src="js/map.js"></script>
     <script>
         new WOW().init();
     </script>
