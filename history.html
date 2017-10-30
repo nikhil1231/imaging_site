@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>VIS UCL | History</title>
+
+
+    <link rel="stylesheet" href="css/reset.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -13,6 +16,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
+    <link href="css/timelinestyle.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -24,7 +28,7 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark translucent fixed-top scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/index.html">
                     <img class='logo' src='img/ucl-logo-white.png'>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
@@ -94,6 +98,36 @@
                     <p>- Future of the science</p>
                 </div>
             </div>
+            <section class="cd-horizontal-timeline">
+                <div class="timeline">
+                    <div class="events-wrapper">
+                        <div class="events">
+                            <ol class='timeline-header'>
+                                <li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+                            </ol>
+
+                            <span class="filling-line" aria-hidden="true"></span>
+                        </div> <!-- .events -->
+                    </div> <!-- .events-wrapper -->
+                        
+                    <ul class="cd-timeline-navigation">
+                        <li><a href="#0" class="prev inactive">Prev</a></li>
+                        <li><a href="#0" class="next">Next</a></li>
+                    </ul> <!-- .cd-timeline-navigation -->
+                </div> <!-- .timeline -->
+
+                <div class="events-content">
+                    <ol class='timeline-list'>
+                        <li class="selected date-template" data-date="">
+                            <h2></h2>
+                            <em></em>
+                            <p></p>
+                        </li>
+
+                        
+                    </ol>
+                </div> <!-- .events-content -->
+            </section>
         </div>
     </main>
     <!-- /Start your project here-->
@@ -160,6 +194,9 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/timelineGen.js"></script>
+    <script src="js/main.js"></script>
     <script>
         new WOW().init();
     </script>
