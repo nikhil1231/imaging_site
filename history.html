@@ -18,6 +18,9 @@
     <!-- Your custom styles (optional) -->
     <link href="css/timelinestyle.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/timelineGen.js"></script>
+    <link rel="stylesheet" href="css/timeline.css">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
 </head>
 
 <body>
@@ -98,35 +101,68 @@
                     <p>- Future of the science</p>
                 </div>
             </div>
-            <section class="cd-horizontal-timeline">
-                <div class="timeline">
-                    <div class="events-wrapper">
-                        <div class="events">
-                            <ol class='timeline-header'>
-                                <li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
-                            </ol>
 
-                            <span class="filling-line" aria-hidden="true"></span>
-                        </div> <!-- .events -->
-                    </div> <!-- .events-wrapper -->
-                        
-                    <ul class="cd-timeline-navigation">
-                        <li><a href="#0" class="prev inactive">Prev</a></li>
-                        <li><a href="#0" class="next">Next</a></li>
-                    </ul> <!-- .cd-timeline-navigation -->
-                </div> <!-- .timeline -->
+            <section id="timeline">
 
-                <div class="events-content">
-                    <ol class='timeline-list'>
-                        <li class="selected date-template" data-date="">
-                            <h2></h2>
-                            <em></em>
-                            <p></p>
-                        </li>
+                <div class="tl-item">
 
-                        
-                    </ol>
-                </div> <!-- .events-content -->
+                    <div class="tl-bg" style="background-image: url(http://www.rutherfordjournal.org/images/TAHC_rosenblatt-sepia.jpg)"></div>
+
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1950</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1>the field of computer vision emerged in 1950 with the invention of perceptrons by Frank Rosenblatt</h1>
+                        <p>This machine was designed for image recognition which was reported as the embryo of an electronic computer.It used 20×20 cadmium sulfide photocells to produce a 400-pixel image. However, it is only capable of learning linearly separable patterns, like sort images into very simple categories like triangle and square.</p>
+                    </div>
+
+                </div>
+
+                <div class="tl-item">
+
+                    <div class="tl-bg" style="background-image: url(http://etcetera.com.mx/ckfinder/files/images/811214_r27300-1200.jpg)"></div>
+
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1970</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Marvin Minsky and Seymour Papert improved the algorithm of perceptrons</h1>
+                        <p>Studies in the 1970s formed the early foundations for many of the computer vision algorithms that exist today, including extraction of edges from images, polyhedral modeling, and motion estimation.</p>
+                    </div>
+
+                </div>
+
+                <div class="tl-item">
+
+                    <div class="tl-bg" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7b/Shading1.jpg)"></div>
+
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1980</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">image processing</h1>
+                        <p>This decade saw studies on image reconstructions based on mathematical method, including the concept of scale-space(blur image), image morphing, variations of graph cut and shading.</p>
+                    </div>
+
+                </div>
+
+                <div class="tl-item">
+
+                    <div class="tl-bg" style="background-image: url(https://www.secplicity.org/wp-content/uploads/2017/09/3d-face-model-750x500.jpg)"></div>
+
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1990</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">eigenface</h1>
+                        <p>Things started to heat up in the second half of the 90s due to the improvement on hardware. This decade also marked the first time statistical learning techniques were used in practice to recognize faces in images. Scientists use geometric approach to achieve face recognition. Toward the end of the 1990s, we saw an increased interaction between the fields of computer graphics and computer vision. This included image-based rendering, view interpolation, panoramic image stitching</p>
+                    </div>
+
+                </div>
             </section>
         </div>
     </main>
