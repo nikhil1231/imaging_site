@@ -56,7 +56,7 @@ $(document).ready(function(){
 		var date = dates[i];
 		var dateParts = date[0].split("/");
 
-		var printDate = dateParts[0] + ' ' + months[parseInt(dateParts[1])]
+		var printDate = dateParts[2]// + ' ' + months[parseInt(dateParts[1])]
 
 		var tmpDateHeader = $('.timeline-header li:first-child').clone();
 		tmpDateHeader.children().attr("data-date", date[0]);
