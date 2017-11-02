@@ -24,6 +24,23 @@
 	height: 35% !important;
 }
 
+.card-wrapper{
+	/*min-height: 600px !important;*/
+}
+
+.profile-links{
+	position: absolute;
+    bottom: 12px;
+    width: 90%;
+}
+
+.more-link{
+	margin-right: 90px;
+}
+.more-link-2{
+	
+}
+
 /*.avatar{
 	background: url(http://vis.cs.ucl.ac.uk/fileadmin/_processed_/9/a/csm_alexander_5d2d2da664.jpg) 50% 50% no-repeat;
 	width: 120px;
