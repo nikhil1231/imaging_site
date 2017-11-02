@@ -14,6 +14,7 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,7 +64,7 @@
         </nav>
 
         <!-- Intro Section -->
-        <div class="view hm-white-light jarallax" data-parallax="scroll" data-image-src="img/img.jpg">
+        <div class="view hm-white-light jarallax" data-parallax="scroll" data-image-src="img/The top.jpg">
             <div class="full-bg-img">
                 <div class="container flex-center">
                     <div class="row pt-5 mt-3">
@@ -86,24 +87,140 @@
         <div class="container">
             <div class="row py-5 mt-4">
                 <div class="col-md-12 text-center">
-                    <p>Scene Reconstruction</p>
-                    <p>The objective of this Scene Reconstruction technology is about taking the information of a scene in reality
-                        and computing a 3-dimensional model of it. This information provided are usually several pictures
-                        or a video of the scene. First, 3d sensing techniques on a grid basis would be used to get 3d images
-                        of the scene. Then certain algorithms would be used to connect the scenes together and form the 3d
-                        model.</p>
-                    <p>Image-understanding System</p>
-                    <p>Image-understanding system, also called as IUS, contains three levels. The first is called the Low Level.
-                        It contains primitives like the sides, the shapes and their position. Going on there is the Intermediate
-                        Level containing the volumes, the boundaries, etc. Then there is the High Level which contains the
-                        scenes. These require a lot of information from further studies.</p>
-                    <p>Other than that, techniques like inference and control are also used in IUS. Inference simply means to
-                        deduce new information from the facts already known, while control is the process that decides which
-                        technique should be used and when.</p>
-                    <p>- The process of research from start to finish</p>
-                    <p>- Overview of each team, what they are working on, major accomplishments</p>
-                    <p>- Publications to each team</p>
-                    <p>- Twitter page to each team</p>
+                    <p><h3>Researchers of our department of Computer Vision and Imaging Science <br>do lots of studies and are greatly involved in the most advanced researches of
+                      many modern technologies that are widely used but still need to be greatly improved. <br>
+                      These technologies include:</h3></p>
+                    <!--Card-->
+                    <!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="4"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+            <div class="card card-image d-block w-100" style="background-image: url(img/sceneReconstruction.jpg); height:600px;" alt="Third slide">
+
+                <!-- Content -->
+                <div style="height:600px;" class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h1 class="card-title pt-2 blue-text"><strong>Scene Reconstruction</strong></h1>
+                        <p><h3>The objective of this Scene Reconstruction technology is about taking the information of a scene in reality
+                           and computing a 3-dimensional model of it. This information provided are usually several pictures or a video of
+                           the scene. First, 3d sensing techniques on a grid basis would be used to get 3d images of the scene. Then certain
+                           algorithms would be used to connect the scenes together and form the 3d model.</h3></p>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+        </div>
+        <!--/First slide-->
+        <!--Second slide-->
+        <div class="carousel-item">
+            <div class="card card-image d-block w-100" style="background-image: url(img/recognition.png); height:600px;" alt="Second slide">
+
+                <!-- Content -->
+                <div style="height:600px;"class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h1 class="card-title pt-2 blue-text"><strong>Recognition</strong></h1>
+                        <p><h3>The major problem of all sorts of vision technology is determining whether a specific thing is existing in
+                          or is happening in an image. Such problems are categorized into three: Object classification, where the computer
+                          has to recognize a certain object that it has learned; Identification, where a unique feature of an object is
+                          recognized (eg. fingerprints); Detection, where a certain condition needs to be detected by scanning.<br>
+                          Many brilliant algorithms are used to solve these problems, but still even the best of them struggle to deal
+                          with tiny stuff, like a pin. They also struggle with filtered images from most digital cameras.<br>
+                          Specialized tasks based on this technology include:<br>
+                          <strong>Content-based image retrieval</strong>, used to find images containing a specific content from hundreds
+                          of them.<br>
+                          <strong>Pose estimate</strong>, used to compute the position of an object.<br>
+                          <srtong>Face recognizing</strong>.<br>
+                          Etc.</h3></p>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+        </div>
+        <!--/Second slide-->
+        <!--Third slide-->
+        <div class="carousel-item">
+            <div class="card card-image d-block w-100" style="background-image: url(img/motionAnalysis.png); height:600px;" alt="First slide">
+
+                <!-- Content -->
+                <div style="height:600px;" class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h1 class="card-title pt-2 blue-text"><strong>Motion Analysis</strong></h1>
+                        <p><h3>This technology is about processing a sequence of images or
+                           a video and calculate the velocity of an object or the
+                           camera. It supports tasks like tracking (follow movement
+                           of an object) and optical flow (determining how an object
+                           is moving relative to the scene).</h3></p>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+        </div>
+        <!--/Third slide-->
+        <!--fourth slide-->
+        <div class="carousel-item" interval:30000;>
+            <div class="card card-image d-block w-100" style="background-image: url(img/image-understandingSystem.png); height:600px;" alt="Fourth slide">
+
+                <!-- Content -->
+                <div style="height:600px;" class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h1 class="card-title pt-2 blue-text"><strong>Image-Understanding</strong></h1>
+                        <p><h3>Image-understanding system, also called as IUS, contains three levels. The first is called the Low Level.
+                          It contains primitives like the sides, the shapes and their position. Going on there is the Intermediate Level
+                          containing the volumes, the boundaries, etc. Then there is the High Level which contains the scenes. These require
+                          a lot of information from further studies.<br>
+                          Other than that, techniques like inference and control are also used in IUS. Inference simply means to deduce new
+                          information from the facts already known, while control is the process that decides which technique should be used
+                          and when.</h3></p>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+
+        </div>
+        <!--fourth slide-->
+        <!--fifth slide-->
+        <div class="carousel-item">
+            <div class="card card-image d-block w-100" style="background-image: url(img/imageReconstruction.jpeg); height:600px;" alt="Fifth slide">
+
+                <!-- Content -->
+                <div style="height:600px;" class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h1 class="card-title pt-2 blue-text"><strong>Image Reconstruction</strong></h1>
+                        <p><h3>Image restoration is about excluding noises from an image. Better removals are usually obtained by first
+                          determining the basic structure of the image and then controlling the filter.</p>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+        </div>
+        <!--fifth slide-->
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+                    <!-- Card -->
+
                 </div>
             </div>
         </div>
