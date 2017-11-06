@@ -72,8 +72,8 @@
                                     <span class="indigo-text font-bold">IMAGING SCIENCE</span>
                                 </h1>
                                 <h5 class="font-up mb-5 mt-1 font-bold wow fadeInDown" data-wow-delay="0.3s">Making computers see like us.</h5>
-                                <a class="btn btn-light-blue btn-lg wow fadeInDown" href = "/research.html" data-wow-delay="0.3s">Learn more</a>
-                                <a class="btn btn-indigo btn-lg wow fadeInDown" href = "/team.html" data-wow-delay="0.3s">About</a>
+                                <a class="btn btn-light-blue btn-lg wow fadeInDown" href="/research.html" data-wow-delay="0.3s">Learn more</a>
+                                <a class="btn btn-indigo btn-lg wow fadeInDown" href="/team.html" data-wow-delay="0.3s">About</a>
                             </div>
                         </div>
                     </div>
@@ -88,21 +88,10 @@
             <div class="row py-5 mt-4">
                 <div class="col-md-12 text-center">
                     <h1 class="font-bold light-blue-text my-5">What We Do</h1>
-                    <p>Computer vision and image processing aims to extract useful information from images and movies.</p>
-                    <p>More intro here</p>
-                    <p>There are many possible applications for our research:</p>
-                    <ul>
-                        <li>Face recognition</li>
-                        <li>Automated analysis of medical images</li>
-                        <li>Robotics</li>
-                        <li>Visual inspection for production lines</li>
-                        <li>Building 3D models of the real world</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class='row'>
-                <div class='col-md-12 text-center'>
+                    <p>The aim of our research is to extract useful information from images and video, similar to the way the
+                        human eyes and brain process what we see. Some possible appplications of our research include: facial
+                        recognition, analysis of medical images, robotics and much more!</p>
+                    </br>
                     <!--Carousel Wrapper-->
                     <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
                         <!--Indicators-->
@@ -116,34 +105,37 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="view hm-black-light">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                                    <img class="d-block w-100" src="img/meteorite.JPG" alt="First slide">
                                     <div class="mask"></div>
                                 </div>
                                 <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Light mask</h3>
-                                    <p>First text</p>
+                                    <h3 class="h3-responsive">Image Analysis</h3>
+                                    <p>This image shows the use of computer vision to pick out the main features in the structure
+                                        of a meteorite.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <!--Mask color-->
-                                <div class="view hm-black-strong">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                                <div class="view hm-black-light">
+                                    <img class="d-block w-100" src="img/srv_feature_points_robotic_instruments.png" alt="Second slide">
                                     <div class="mask"></div>
                                 </div>
                                 <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Strong mask</h3>
-                                    <p>Secondary text</p>
+                                    <h3 class="h3-responsive">Medical Imaging</h3>
+                                    <p>The analysis of medical images can be used to aid diagnosis, or be used with robotics
+                                        during surgery.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <!--Mask color-->
-                                <div class="view hm-black-slight">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                                <div class="view hm-black-light">
+                                    <img class="d-block w-100" src="img/bifs.JPG" alt="Third slide">
                                     <div class="mask"></div>
                                 </div>
                                 <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Slight mask</h3>
-                                    <p>Third text</p>
+                                    <h3 class="h3-responsive">Basic Image Features</h3>
+                                    <p>This involves classifying each pixel of an image into groups to extract edges and regions
+                                        from an image. These are often compared to a rough sketch by an artist.</p>
                                 </div>
                             </div>
                         </div>
@@ -159,20 +151,27 @@
                         </a>
                         <!--/.Controls-->
                     </div>
-
+                    </br>
+                    <p>An interesting problem in our research is the sheer amount of data involved. A VGA camera (640x480 pixels)
+                        recording at 30 frames per second will provide 27 Mega Bits of information per second. That's 27
+                        million bits of information per second, and that isn't even in HD!</p>
+                    <p>Can you guess out how much information a HD video running at 30 frames per second will provide? (1920x1080 pixels)</p>
+                    <a class="btn btn-indigo btn-lg" onclick="showAnswer()">Reveal the Answer</a>
                     <h1 class="font-bold light-blue-text my-5">See What We Do</h1>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YUaEPV7Qz1c"></iframe>
                     </div>
+
                     <h1 class="font-bold light-blue-text my-5">Who We are</h1>
+
                     <!--Card-->
                     <div class="card card-cascade wider reverse my-4">
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="img-fluid">
-                            <a href="/history.html">
+                            <img src="img/vision_scrabble.jpeg" class="img-fluid">
+                            <a>
                                 <div class="mask"></div>
                             </a>
                         </div>
@@ -181,11 +180,12 @@
                         <!--Card content-->
                         <div class="card-body text-center">
                             <p class="card-text">The Vision and Imaging Science group at UCL consists of 8 academic staff and more than 40 post-docs
-                                and students. We host numerous seminars and reading groups, and organize several related
-                                M.Sc. courses. Particular interests include face recognition, medical image analysis, statistical
-                                modelling of colour information, tracking for augmented reality, diffusion tensor imaging,
-                                inverse problems and building mathematical models of shape and appearance.
-                            </p>
+                                and students. We host numerous seminars, reading groups, and
+                                <a href="http://www.cs.ucl.ac.uk/prospective_students/msc_computer_graphics_vision_imaging/" target="_blank">Masters Level courses.</a>
+                                Our groups interests include: facial recognition, augmented reality and medical imaging. Furthemore, Vision and Imaging has
+                                been a vital part of Computer Science for many years, starting as early as the 1960s. Click
+                                below to learn more about the history of this fascinating reseach area.</p>
+                            <a class="btn btn-indigo btn-lg" href="/history.html">Our History</a>
                         </div>
                         <!--/.Card content-->
 
@@ -193,10 +193,6 @@
                     <!--/.Card-->
                     <h1 class="font-bold light-blue-text my-5">Our Work</h1>
                 </div>
-            </div>
-
-
-            <div class="container">
                 <div class="row">
                     <div class="col">
                         <!--Card-->
@@ -333,6 +329,11 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        function showAnswer() {
+            alert("About 180,000,000 bits of information! That's almost 7x larger than the VGA image!");
+        }
     </script>
 </body>
 
