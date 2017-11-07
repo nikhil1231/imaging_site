@@ -100,7 +100,6 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     z-index: 1;
-    border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
 .tl-year p {
