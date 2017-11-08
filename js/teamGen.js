@@ -6,7 +6,7 @@ $(document).ready(function(){
 			"agapito",
 			"http://www.cs.ucl.ac.uk/people/L.Agapito.html/",
 			"http://www0.cs.ucl.ac.uk/staff/L.Agapito/",
-			"Reader",
+			"Professor of 3D Vision",
 			"Computer Vision, 3D Reconstruction from Video, Non-Rigid Shape Modelling"
 		],[
 			"Professor Danny Alexander",
