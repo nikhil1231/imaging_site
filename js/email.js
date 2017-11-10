@@ -16,7 +16,7 @@ $(document).ready(function(){
 			alert("Please complete form.");
 			return;
 		}
-		// emailjs.send("default_service","contact_us",{name: name, email: email, subject: subject, msg: msg});
+		emailjs.send("default_service","contact_us",{name: name, email: email, subject: subject, msg: msg});
 		alert("Form sent.");
 
 		var name = $('#form3').val('')
